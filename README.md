@@ -1,7 +1,7 @@
 # test coverage for  [form-data (v2.1.4)](https://github.com/form-data/form-data#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-form-data.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-form-data) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-form-data.svg)](https://travis-ci.org/npmtest/node-npmtest-form-data)
 #### A library to create readable "multipart/form-data" streams. Can be used to submit forms and file uploads to other web applications.
 
-[![NPM](https://nodei.co/npm/form-data.png?downloads=true)](https://www.npmjs.com/package/form-data)
+[![NPM](https://nodei.co/npm/form-data.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/form-data)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-form-data/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-form-data/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-form-data/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-form-data/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-form-data/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-form-data/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-form-data/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-form-data/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-form-data/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-form-data/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-form-data%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-form-data/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-form-data/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-form-data/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-form-data/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-form-data%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-form-data/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-form-data/build/test-report.html](https://npmtest.github.io/node-npmtest-form-data/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-form-data/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-form-data/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-form-data/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-form-data/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-form-data/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-form-data/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-form-data/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +34,6 @@
 {
     "author": {
         "name": "Felix Geisendörfer",
-        "email": "felix@debuggable.com",
         "url": "http://debuggable.com/"
     },
     "browser": "./lib/browser",
@@ -75,20 +80,16 @@
     "main": "./lib/form_data",
     "maintainers": [
         {
-            "name": "alexindigo",
-            "email": "iam@alexindigo.com"
+            "name": "alexindigo"
         },
         {
-            "name": "dylanpiercey",
-            "email": "pierceydylan@gmail.com"
+            "name": "dylanpiercey"
         },
         {
-            "name": "felixge",
-            "email": "felix@debuggable.com"
+            "name": "felixge"
         },
         {
-            "name": "mikeal",
-            "email": "mikeal.rogers@gmail.com"
+            "name": "mikeal"
         }
     ],
     "name": "form-data",
@@ -98,7 +99,6 @@
         "ci-test",
         "check"
     ],
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/form-data/form-data.git"
