@@ -1,4 +1,7 @@
-# test coverage for  [form-data (v2.1.4)](https://github.com/form-data/form-data#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-form-data.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-form-data) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-form-data.svg)](https://travis-ci.org/npmtest/node-npmtest-form-data)
+# npmtest-form-data
+
+#### basic test coverage for  [form-data (v2.1.4)](https://github.com/form-data/form-data#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-form-data.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-form-data) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-form-data.svg)](https://travis-ci.org/npmtest/node-npmtest-form-data)
+
 #### A library to create readable "multipart/form-data" streams. Can be used to submit forms and file uploads to other web applications.
 
 [![NPM](https://nodei.co/npm/form-data.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/form-data)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-form-data/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-form-data/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-form-data/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-form-data/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-form-data/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-form-data/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-form-data/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-form-data/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-form-data/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-form-data/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-form-data/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-form-data/build/coverage.html/index.html)
 
@@ -122,7 +125,8 @@
         "test": "istanbul cover test/run.js",
         "update-readme": "sed -i.bak 's/\\/master\\.svg/\\/v'$(npm --silent run get-version)'.svg/g' README.md"
     },
-    "version": "2.1.4"
+    "version": "2.1.4",
+    "bin": {}
 }
 ```
 
